@@ -2,7 +2,7 @@
 //  MiddleViewController.swift
 //  OrderOfEvents
 //
-//  Created by Vasu on 25/07/25.
+//  Created by Aaryushi on 25/07/25.
 //
 
 import UIKit
