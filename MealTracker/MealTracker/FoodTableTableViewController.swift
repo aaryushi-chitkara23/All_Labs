@@ -9,22 +9,22 @@ import UIKit
 
 class FoodTableTableViewController: UITableViewController {
     var meals: [Meal] {
-        var breakfast = Meal(name:"Breakfast",food: [food1,food2,food3])
-        var lunch = Meal(name:"Lunch",food: [food5, food6,food7])
-        var dinner = Meal(name:"Dinner",food: [food8,food9,food10])
+        var breakfast = Meal(name:"BREAKFAST",food: [food1,food2,food3])
+        var lunch = Meal(name:"LUNCH",food: [food5, food6,food7])
+        var dinner = Meal(name:"DINNER",food: [food8,food9,food10])
         return [breakfast,lunch,dinner]
     }
     
         var food1 = Food(name:"Bread",description: "white bread")
         var food2 = Food(name:"Eggs",description: "white eggs")
         var food3 = Food(name:"Milk",description: "white milk")
-    var food5 = Food(name: "rice" , description: "white rice")
-    var food6 = Food(name: "chicken" , description: "kadhai chicken")
-    var food7 = Food(name: "paneer" , description: "paneer cheese")
+    var food5 = Food(name: "Rice" , description: "white rice")
+    var food6 = Food(name: "Chicken" , description: "kadhai chicken")
+    var food7 = Food(name: "Paneer" , description: "paneer cheese")
     
-    var food8 = Food(name: "pasta" , description: "spaghetti pasta")
-    var food9 = Food(name: "burger" , description: "red tomato sauce burger")
-    var food10 = Food(name: "pizza" , description: "cheese pizza")
+    var food8 = Food(name: "Pasta" , description: "spaghetti pasta")
+    var food9 = Food(name: "Burger" , description: "red tomato sauce burger")
+    var food10 = Food(name: "Pizza" , description: "cheese pizza")
 //        return [food1,food2,food3]
     
     
